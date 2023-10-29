@@ -1,0 +1,23 @@
+/* banner.css */
+
+.banner {
+    background-color: #3498db; /* Background color */
+    color: #fff; /* Text color */
+    text-align: center; /* Center-align text */
+    padding: 20px; /* Add some padding for spacing */
+  
+    /* Optional styles for a fixed banner at the top of the page */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  .banner h1 {
+    font-size: 24px; /* Font size for the title */
+    margin: 0; /* Remove default margin for the title */
+  }
+  
+  /* Additional styles or customizations can be added here */
+  

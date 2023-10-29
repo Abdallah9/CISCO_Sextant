@@ -1,6 +1,6 @@
 
 import React from 'react';
-
+import './Exhibit.css';
 const Exhibit = ({ title, children }) => {
   return (
     <div className="exhibit">

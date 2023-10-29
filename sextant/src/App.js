@@ -9,7 +9,8 @@ function App() {
       <header className="App-header">
 
       <Banner title="Sextant" />
-       <Exhibit title="Data Point 1">
+
+      <Exhibit title="Data Point 1">
         <p>This is the content for Data Point 1.</p>
       </Exhibit>
 
