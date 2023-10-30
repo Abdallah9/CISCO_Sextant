@@ -1,6 +1,7 @@
 import './App.css';
 import Banner from './Banner';
 import Exhibit from './Exhibit';
+import IPDisplay from './IPDisplay';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
 
       <Banner title="Sextant" />
 
-      <Exhibit title="Data Point 1">
+      {/* <Exhibit title="Data Point 1">
         <p>This is the content for Data Point 1.</p>
       </Exhibit>
 
@@ -20,7 +21,15 @@ function App() {
           <li>Item 2</li>
           <li>Item 3</li>
         </ul>
+      </Exhibit> */}
+
+
+      <Exhibit title="User IP Addresses">
+        <IPDisplay version="IPv4" />
+        <IPDisplay version="IPv6" />
       </Exhibit>
+
+
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
